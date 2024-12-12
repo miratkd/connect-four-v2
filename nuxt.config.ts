@@ -4,4 +4,9 @@ export default defineNuxtConfig({
   css: ["~/assets/main.sass"],
   devtools: { enabled: true },
   devServer: {host: '192.168.0.183'},
+  app:{
+    head:{
+      title: 'Connect four'
+    }
+  }
 })
